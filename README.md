@@ -22,11 +22,11 @@ To learn more before you start working with auth_demo, see the following documen
 To get started, start a local dfx development environment in this directory with the following steps:
 
 ```bash
-cd auth-client-demo/
+cd auth-client-demo
+npm ci
 dfx start --background --clean
 dfx deploy
+npm run start
 ```
-
-Once deployed, start the development server with `npm start`.
 
 You can now access the app at `http://localhost:8080`.
